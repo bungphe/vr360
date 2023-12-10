@@ -1,0 +1,285 @@
+﻿<krpano version="1.20.11" title="Virtual Tour">
+
+	<include url="skin/vtourskin.xml" />
+
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="true"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               maps_loadonfirstuse="true"
+	               gyro="true"
+	               gyro_keeplookingdirection="false"
+	               webvr="true"
+	               webvr_keeplookingdirection="true"
+	               webvr_prev_next_hotspots="true"
+	               autotour="false"
+	               littleplanetintro="false"
+	               followmousecontrol="false"
+	               title="true"
+	               thumbs="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="false"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
+	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
+	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
+	               loadingtext=""
+	               layout_width="100%"
+	               layout_maxwidth="814"
+	               controlbar_width="-24"
+	               controlbar_height="40"
+	               controlbar_offset="20"
+	               controlbar_offset_closed="-40"
+	               controlbar_overlap.no-fractionalscaling="10"
+	               controlbar_overlap.fractionalscaling="0"
+	               design_skin_images="vtourskin.png"
+	               design_bgcolor="0x2D3E50"
+	               design_bgalpha="0.8"
+	               design_bgborder="0"
+	               design_bgroundedge="1"
+	               design_bgshadow="0 4 10 0x000000 0.3"
+	               design_thumbborder_bgborder="3 0xFFFFFF 1.0"
+	               design_thumbborder_padding="2"
+	               design_thumbborder_bgroundedge="0"
+	               design_text_css="color:#FFFFFF; font-family:Arial;"
+	               design_text_shadow="1"
+	               />
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+
+
+	
+	<scene name="scene_DJI_0015" title="DJI_0015" onstart="" thumburl="panos/DJI_0015.tiles/thumb.jpg" lat="20.68976333" lng="106.69981500" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0015.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0015.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_DJI_0016" title="DJI_0016" onstart="" thumburl="panos/DJI_0016.tiles/thumb.jpg" lat="20.68718167" lng="106.68997833" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0016.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0016.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_DJI_0017" title="DJI_0017" onstart="" thumburl="panos/DJI_0017.tiles/thumb.jpg" lat="20.68718000" lng="106.68997000" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0017.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0017.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_DJI_0018" title="DJI_0018" onstart="" thumburl="panos/DJI_0018.tiles/thumb.jpg" lat="20.69667500" lng="106.68526500" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0018.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0018.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_DJI_0025" title="DJI_0025" onstart="" thumburl="panos/DJI_0025.tiles/thumb.jpg" lat="20.69686500" lng="106.69070500" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0025.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0025.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_DJI_0029" title="DJI_0029" onstart="" thumburl="panos/DJI_0029.tiles/thumb.jpg" lat="20.65303833" lng="106.64902000" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0029.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0029.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_DJI_0030" title="DJI_0030" onstart="" thumburl="panos/DJI_0030.tiles/thumb.jpg" lat="20.65303833" lng="106.64902167" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0030.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0030.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_DJI_0031" title="DJI_0031" onstart="" thumburl="panos/DJI_0031.tiles/thumb.jpg" lat="20.65833500" lng="106.65689833" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0031.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0031.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_DJI_0032" title="DJI_0032" onstart="" thumburl="panos/DJI_0032.tiles/thumb.jpg" lat="20.65865667" lng="106.64993167" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0032.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0032.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_DJI_0033" title="DJI_0033" onstart="" thumburl="panos/DJI_0033.tiles/thumb.jpg" lat="20.65833667" lng="106.65801667" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0033.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0033.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_DJI_0037" title="DJI_0037" onstart="" thumburl="panos/DJI_0037.tiles/thumb.jpg" lat="20.63586333" lng="106.66330167" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0037.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0037.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_DJI_0038" title="DJI_0038" onstart="" thumburl="panos/DJI_0038.tiles/thumb.jpg" lat="20.63586667" lng="106.66330167" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0038.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0038.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_DJI_0039" title="DJI_0039" onstart="" thumburl="panos/DJI_0039.tiles/thumb.jpg" lat="20.63003500" lng="106.66562333" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0039.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0039.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_DJI_0040" title="DJI_0040" onstart="" thumburl="panos/DJI_0040.tiles/thumb.jpg" lat="20.62524833" lng="106.66757333" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0040.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0040.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_DJI_0041" title="DJI_0041" onstart="" thumburl="panos/DJI_0041.tiles/thumb.jpg" lat="20.63247000" lng="106.65699500" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/DJI_0041.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/DJI_0041.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+
+</krpano>
